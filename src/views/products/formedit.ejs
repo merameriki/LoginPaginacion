@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit</title>
+</head>
+<body>
+	<form action="/editar/<%= products.id %>" method="POST">
+		Categoria: <input type="text" name="categoria" value="<%= products.categoria %>">
+		Nombre: <input type="text" name="nombre" value="<%= products.nombre %>"> 
+		Precio: <input type="number" name="precio" value="<%= products.precio %>"> 
+				  		<%= console.log(products.id) %>
+		  				<%= console.log(products.cover) %>
+		  				<%= console.log(products.nombre) %>
+		  				<%= console.log("FormEdit") %>
+		<input type="submit">
+	</form>
+</body>
+</html>

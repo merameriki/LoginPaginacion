@@ -1,0 +1,6 @@
+npm init --yes
+npm install faker (para tomar datos de ejemplos)
+npm install express mongoose ejs body-parser
+npm install nodemon -d
+
+SE ejecuta con npm run dev

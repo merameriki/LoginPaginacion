@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Editar</title>
+</head>
+<body>
+<div class="container">
+	<form action="/eliminar/<%= producto.id %>" method="POST">
+		<div>
+		<img src="<%= producto.cover %>" class='card-img-top'>
+		</div>
+		<div>
+		Categoria: <input type="text" name="categoria" value="<%= producto.categoria %>" class="card-text">
+		Nombre: <input type="text" name="nombre" value="<%= producto.nombre %>"class="card-title"> 
+		<%= console.log(producto.nombre) %>
+		Precio: <input type="number" name="precio" value="<%= producto.precio %>" class="card-text"> 
+		<input type="submit"  class=¨btn btn-primary boton">
+		</div>
+	</form>
+</div>
+</body>
+</html>
